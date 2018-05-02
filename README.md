@@ -5,3 +5,4 @@ Tuples are immutable and lists are mutable, that is lists are resizeable; howerv
 Tuples are cached by the Python runtime that means we don't need to 
 reserve memory every time we want to use one. Lists and tuples take mixed types.
 * Instantiating a list is 5.1x times slower compared to instantiating tuple.
+* unordered lists and tuples search complexity is o(n) compared to dictionary/set complexity of o(1).
