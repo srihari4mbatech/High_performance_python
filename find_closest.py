@@ -21,8 +21,10 @@ if __name__=="__main__":
         bisect.insort(important_numbers,new_number)
     print(important_numbers)
     closest_num=find_closest(important_numbers,-250)
-    print("The closest number to -250 is {} and index is ".format(important_numbers[closest_num], closest_num))
+    print("The closest number to -250 is {} and index is {}".format(important_numbers[closest_num], closest_num))
     closest_num = find_closest(important_numbers, 50)
-    print("The closest number to 50 is {}".format(important_numbers[closest_num],closest_num))
+    print("The closest number to 50 is {} and index is {}".format(important_numbers[closest_num],closest_num))
+    closest_num = find_closest(important_numbers, 500)
+    print("The closest number to 500 is {} and index is {}".format(important_numbers[closest_num], closest_num))
 
 
