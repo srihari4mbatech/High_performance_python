@@ -48,3 +48,7 @@ if __name__ == '__main__':
     p1=Point(1,1)
     p3=Point(3,3)
     print(set([p1,p3]))
+    if Point(1,1) in set([p1,p3]):
+        print("True")
+    else:
+        print("False")
